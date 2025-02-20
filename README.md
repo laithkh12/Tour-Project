@@ -55,4 +55,4 @@ If you'd like to contribute to this project:
 
 ## License
 
-This project is licensed under the MIT License.
+This project is just for personal use
