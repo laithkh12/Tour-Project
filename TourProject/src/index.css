@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+  /* Remove overflow: hidden to allow scrolling */
+  overflow: auto;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto; /* Allow the height to adjust based on content */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 32px;
+  position: relative;
+}
+
+.header {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 32px;
+  width: 100%;
+}
+
+.tourWrapper {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  width: 30%;
+  background-color: aliceblue;
+  color: red;
+}
+
+.tourWrapper img {
+  width: 100%;
+  height: 250px;
+}
+
+.tourBottom {
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+  position: relative; /* Change to relative or remove positioning entirely */
+  background-color: antiquewhite;
+  color: red;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.renderList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.order {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: red;
+  color: white;
+}
+
+.grey {
+  color: grey;
+}
