@@ -3,18 +3,16 @@
 
 ## Description
 
-The Tour Project is a simple front-end web application that allows users to explore and manage tours. It includes a user interface to browse available tours, view tour details, and search for tours. The project is built using vanilla JavaScript, HTML, and CSS. There is no back-end or database, as the project focuses solely on front-end functionality.
+The Tour Project is a simple front-end web application that allows users to explore and manage tours. It includes a user interface to browse available tours. The project is built using React, HTML, and CSS. There is no back-end or database, as the project focuses solely on front-end functionality.
 
 ## Features
 
 - **Browse Tours**: View a list of available tours.
 - **Tour Details**: Get details about each tour.
-- **Search Functionality**: Filter and search for tours.
-- **Responsive Design**: Optimized for both desktop and mobile devices.
 
 ## Technologies Used
 
-- **Frontend**: HTML, JavaScript, CSS
+- **Frontend**: React, JavaScript, CSS
 - **No backend or database**.
 
 ## Installation
@@ -41,7 +39,6 @@ Once the app is running, you can:
 
 - View the list of available tours.
 - Click on a tour to view more details.
-- Use the search functionality to filter tours.
 
 ## Contributing
 
